@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.screens.add.AddFragment">
+
+    <ImageButton
+        android:id="@+id/ib_back_and_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/et_title"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_new_24"
+        android:background="@null"
+        >
+
+    </ImageButton>
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@null"
+        android:hint="@string/title_in_add"
+
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/et_desc"
+        app:layout_constraintStart_toStartOf="@+id/et_title"
+        app:layout_constraintTop_toBottomOf="@+id/et_title"
+        tools:text="15:44">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/et_desc"
+        android:layout_marginStart="30dp"
+        app:layout_constraintStart_toEndOf="@+id/tv_time"
+        app:layout_constraintTop_toBottomOf="@+id/et_title"
+        tools:text="12 Ноября"
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/tv_count_of_symbols"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/et_desc"
+        app:layout_constraintEnd_toEndOf="@+id/et_desc"
+
+        app:layout_constraintTop_toBottomOf="@id/et_title"
+        tools:text="0 символов">
+
+    </TextView>
+    <EditText
+        android:id="@+id/et_desc"
+        android:layout_width="360dp"
+        android:layout_height="0dp"
+        android:gravity="start"
+        android:layout_marginTop="40dp"
+        android:background="@null"
+        android:hint="@string/desc_in_add"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_title"
+        >
+
+    </EditText>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Заметки</string>
+    <string name="title_of_note">Заголовок</string>
+    <string name="desc_of_note">У лукоморья дуб зеленый, златая цепь на дубе том. И днем и ночью кот ученый, все ходит по цепи кругом.</string>
+    <string name="time_of_note">15:18</string>
+    <string name="title_in_add">Заголовок</string>
+    <string name="desc_in_add">Начните ввод</string>
+    <string name="today_item_text">Сегодня</string>
+    <string name="no_text_description">Нет текста</string>
+    <string name="action_settings">Настройки</string>
+    <string name="action_copy">Копировать</string>
+    <string name="action_reminder">Напоминание</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_copied">Скопировано</string>
+    <string name="action_cant_copy">Нет текста для копирования</string>
+    <string name="symbol">символ</string>
+    <string name="symbols">символов</string>
+
+
+
+</resources>
